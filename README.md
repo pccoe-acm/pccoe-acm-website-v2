@@ -1,7 +1,5 @@
 # pccoe-acm-website-v2
 
-#How to get started.
-
 ## Steps to get started working on the repository.
 
 1. Check Node is up to date
