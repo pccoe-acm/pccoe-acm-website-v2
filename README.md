@@ -2,7 +2,7 @@
 
 #How to get started.
 
-## Pre-requisites for working on the project
+## Steps to get started working on the repository.
 
 1. Check Node is up to date
 2. Fork the repository
@@ -10,5 +10,8 @@
 4. Go to terminal and move to the following directory
   > /pccoe-acm-website-v2/pccoe_acm_website
 5. Type:
-  > npm i
-  > npm start
+  ``` 
+  npm i
+  
+  npm start
+  ```
