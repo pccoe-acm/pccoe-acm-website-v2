@@ -32,3 +32,5 @@ git branch
 ```
 git checkout <branch_name>
 ```
+
+### Don't work on main branch, Create a branch and work in it and then create a pull request.
