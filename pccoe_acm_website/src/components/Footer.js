@@ -1,17 +1,19 @@
 import React from "react";
+import "./Footer.css";
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer>
-      <div class="footer">
-        <div class="footer-top">
-          <h1>PCCOE ACM</h1>
+  <>
+     
+      <div className="footer">
+        <div className="footer-top">
+          <h1>PCCOE ACM</h1>  
         </div>
-        <div class="footer-bottom">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 footer-cols">
-              <div class="columns">
+        <div className="footer-bottom">
+          <div className="row">
+            <div className="col-lg-4 col-md-6 footer-cols">
+              <div className="columns">
                 <h5>USEFUL LINKS</h5>
 
                 <p> > HOME</p>
@@ -21,8 +23,8 @@ function Footer() {
                 <p> > ACM Digital Library</p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 footer-cols">
-              <div class="columns">
+            <div className="col-lg-4 col-md-6 footer-cols">
+              <div className="columns">
                 <h5>CONTACT US</h5>
                 <p>
                   Pimpri Chinchwad College of Engineering.Near Akurdi Railway
@@ -33,8 +35,8 @@ function Footer() {
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 footer-cols " id="div-map">
-              {/* <iframe class="gmap_iframe map" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=356&amp;height=34&amp;hl=en&amp;q= pimpri chinchwad college of engineering ,pune&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> */}
+            <div className="col-lg-4 col-md-6 footer-cols " id="div-map">
+             
               <iframe
                 class="gmap_iframe map"
                 width="330"
@@ -49,7 +51,7 @@ function Footer() {
           </div>
         </div>
 
-        <div class="social-media-icons">
+        <div className="social-media-icons">
           <a href="#" class="fa fa-twitter"></a>
           <a href="#" class="fa fa-youtube"></a>
           <a href="#" class="fa fa-instagram"></a>
@@ -61,8 +63,9 @@ function Footer() {
           <p> Copyright &copy; {year} ACM PCCOE All Rights Reserved</p>
         </copyright>
       </div>
-    </footer>
+  
+  </>
   );
-}
+} 
 
 export default Footer;
